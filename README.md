@@ -28,9 +28,6 @@ for i in range(len(num)):
             low=j
     num[i],num[low]=num[low],num[i]
 print(num)
-
-
-
 ```
 ii)	#Insertion Sort
 ```
@@ -43,11 +40,6 @@ for i in range(1,len(num)):
         j=j-1
     num[j+1]=insert
 print(num)
-
-
-
-
-
 ```
 
 ## Output:
@@ -55,7 +47,7 @@ i) Selection Sort:
 
 ![Screenshot (310)](https://github.com/RahiniAchudhan/Sorting-Algorithms/assets/145742838/761908d8-e2c4-4c6e-8048-3363d6df130e)
 
-ii) IUnsertion Sort:
+ii) Insertion Sort:
 ![Screenshot (311)](https://github.com/RahiniAchudhan/Sorting-Algorithms/assets/145742838/c83c6116-ebe2-4af7-ab25-926c05e9d774)
 
 
